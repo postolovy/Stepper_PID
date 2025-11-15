@@ -2,7 +2,7 @@
 
 This project implements a simple and efficient PID control loop for a **NEMA-17 stepper motor** driven by a **DM332T stepper driver**, using encoder feedback for closed-loop precision. The goal is to achieve smooth motion, accurate positioning, and reduced overshoot by continuously adjusting the step signal based on real-time encoder data.
 
-## 🚀 Features
+## Features
 
 * **Closed-loop PID control** using quadrature encoder feedback
 * **Position tracking** with configurable target angles or steps
@@ -10,7 +10,7 @@ This project implements a simple and efficient PID control loop for a **NEMA-17 
 * **Microstepping support** (tested with 1/32 on DM332T)
 * Clean, beginner-friendly structure for experimentation
 
-## 🛠 Hardware Used
+## Hardware Used
 
 * **Arduino Nano** (PID + pulse generation)
 * **DM332T Stepper Driver**
